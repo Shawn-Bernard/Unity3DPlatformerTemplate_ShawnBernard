@@ -37,7 +37,6 @@ public class MenuCreator : MonoBehaviour
         m_MiddleScreenLabel = m_Root.Q<Label>("MiddleScreenText");
         m_LoadingLabel = m_MenuHolder.Q<Label>("LoadingLabel");
         m_LoadingIcon = m_MenuHolder.Q<VisualElement>("LoadingIcon");
-
     }
 
     public bool menuFullyLoaded {

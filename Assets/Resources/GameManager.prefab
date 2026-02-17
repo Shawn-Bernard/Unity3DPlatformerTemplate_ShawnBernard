@@ -88,6 +88,9 @@ MonoBehaviour:
   sourceAsset: {fileID: 9197481963319205126, guid: de1780246a9eac0479b6ed49f4ffc9fa,
     type: 3}
   m_SortingOrder: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
 --- !u!114 &3240712026832926167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,7 +141,8 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 6727417238893991338, guid: c1eec41cda04be841913c3c10712b4fa,
       type: 3}
-  m_PlayerPrefab: {fileID: 100002, guid: 11a0fc37ad0fcd84ea652130b8070601, type: 3}
+  m_PlayerPrefab: {fileID: 2547906668952551846, guid: a46103f986859b24ba1d05f78e4883c1,
+    type: 3}
   m_SplitScreen: 1
   m_MaintainAspectRatioInSplitScreen: 0
   m_FixedNumberOfSplitScreens: -1
@@ -189,3 +193,4 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 2
   m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6

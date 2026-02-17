@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class JetpackController : MonoBehaviour
@@ -22,14 +23,13 @@ public class JetpackController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        advancedMoveController = GetComponent<AdvancedMoveController>();
-        rb = GetComponent<Rigidbody>();
+        advancedMoveController ??= GetComponent<AdvancedMoveController>();
+        rb ??= GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     private void FixedUpdate()

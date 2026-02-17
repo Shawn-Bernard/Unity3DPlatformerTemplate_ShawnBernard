@@ -1,3 +1,23 @@
+unityprogressbar {
+    height: 80px;
+    margin-bottom: 175px;
+    font-size: 25px;
+    -unity-font-style: bold;
+}
+
+.unity-progress-bar__container {
+    min-height: 40px;
+    height: 40px;
+    min-width: 150px;
+    width: 500px;
+}
+
+.unity-progress-bar__progress {
+    background-color: rgb(4, 125, 0);
+    visibility: visible;
+    opacity: 1;
+}
+
 .unity-ui-document__root {
     flex-grow: 1;
 }
