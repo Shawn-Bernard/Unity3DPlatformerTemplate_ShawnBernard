@@ -11,6 +11,7 @@ TagManager:
   - Coin
   - Enemy
   - Water
+  - Mask
   layers:
   - Default
   - TransparentFX

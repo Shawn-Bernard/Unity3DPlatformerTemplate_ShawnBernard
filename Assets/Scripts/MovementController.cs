@@ -37,6 +37,8 @@ public class MovementController : MonoBehaviour
     public static int AnimationID_Attack = Animator.StringToHash("Attack");
     public static int AnimationID_Dash = Animator.StringToHash("Dash");
 
+	public static int AnimationID_JetpackBool = Animator.StringToHash("IsJetpackOn");
+
     protected static PhysicsMaterial frictionlessMaterial = null;
 
 	[Header("Squash and Stretch")]

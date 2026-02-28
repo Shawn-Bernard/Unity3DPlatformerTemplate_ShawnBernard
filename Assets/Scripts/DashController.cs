@@ -53,7 +53,7 @@ public class DashController : MonoBehaviour
         public bool pooledMesh;
     }
 
-    private Animator animator;
+    [SerializeField] private Animator animator;
     private MovementController moveController;
     private Rigidbody rb;
     private HealthController healthComponent;

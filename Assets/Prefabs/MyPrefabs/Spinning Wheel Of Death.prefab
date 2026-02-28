@@ -190,6 +190,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b788ccc0e18d504a8f6afc1be1b143a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  randomSpin: 1
+  randomMaxDirection: 165
+  randomMinDirection: 140
   RotationToAdd: {x: 0, y: 100, z: 0}
 --- !u!1001 &7764728379205138783
 PrefabInstance:
